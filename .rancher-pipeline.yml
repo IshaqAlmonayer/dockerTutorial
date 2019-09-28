@@ -1,0 +1,11 @@
+stages:
+- name: stage1
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: ishaqalmonayer/docker_tutorial
+      pushRemote: true
+      registry: index.docker.io
+timeout: 60
+notification: {}
