@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
 'localhost',
-'https://IshaqAlmonayer.salalem.com'
+'https://ishaqalmonayer.salalem.com'
 ]
 
 
