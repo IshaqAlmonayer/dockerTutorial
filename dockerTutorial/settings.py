@@ -25,7 +25,10 @@ SECRET_KEY = 'g!8)+veaafo5^*1p&eu^1y#=52)5-d1e=#_r)3e)4otg5n@___'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = [
+'localhost',
+'https://IshaqAlmonayer.salalem.com'
+]
 
 
 # Application definition
